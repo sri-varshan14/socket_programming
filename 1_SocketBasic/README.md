@@ -5,15 +5,15 @@
 * struct sockaddr obj;
 
 ### Function
-* [SOCKET socket(int domain, int type, int protocol);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#socket())
-* [int connect(SOCKET s, const struct sockaddr *peer, int peer_len);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#connect())
-* [int recv(SOCKET s, void *buf, size_t len, int flags);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#recv())
-* [int send(SOCKET s, const void *buf, size_t len, int flags);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#send())
-* [int recvfrom(SOCKET s, void *buf, size_t len, int flags, struct sockaddr *from, int *fromlen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#revfrom())
-* [int sendto(SOCKET s, const void *buf, size_t len, int flags, const struct sockaddr *to, int tolen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#sendto())
-* [int bind(SOCKET s, const struct sockaddr *name, int namelen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#bind())
-* [int listen(SOCKET s, int backlog);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#listen())
-* [SOCKET accept(SOCKET s, struct sockaddr *addr, int *addrlen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#accept())
+* [SOCKET socket(int domain, int type, int protocol);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#socket)
+* [int connect(SOCKET s, const struct sockaddr *peer, int peer_len);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#connect)
+* [int recv(SOCKET s, void *buf, size_t len, int flags);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#recv)
+* [int send(SOCKET s, const void *buf, size_t len, int flags);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#send)
+* [int recvfrom(SOCKET s, void *buf, size_t len, int flags, struct sockaddr *from, int *fromlen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#revfrom)
+* [int sendto(SOCKET s, const void *buf, size_t len, int flags, const struct sockaddr *to, int tolen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#sendto)
+* [int bind(SOCKET s, const struct sockaddr *name, int namelen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#bind)
+* [int listen(SOCKET s, int backlog);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#listen)
+* [SOCKET accept(SOCKET s, struct sockaddr *addr, int *addrlen);](https://github.com/sri-varshan14/socket_programming/tree/master/1_SocketBasic#accept)
 
 # socket()
 ***Description -*** This function used to create a socket 
